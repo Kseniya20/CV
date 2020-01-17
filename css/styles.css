@@ -1,0 +1,55 @@
+body {
+  background-image: url("bg2.jpg");
+}
+
+
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #fef6fb;
+  border-width: 8px;
+  width: 5%;
+}
+h1 {
+  color: #801336;
+}
+h3 {
+  color: #801336;
+  font-size: 20px;
+  font-family: Lucida Sans;
+}
+label {
+  color:#801336;
+}
+p {
+  color: #39375b;
+  font-size: 18px;
+  font-family: Lucida Sans;
+}
+td {
+  color: #3e206d;
+  font-size: 15px;
+  font-family: Lucida Sans;
+}
+.circular {
+  border-radius: 100%;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:200px;
+    height: 100px;
+    padding:10px;
+    background-color: #E3D3E0;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    font-family: Areal;
+}
